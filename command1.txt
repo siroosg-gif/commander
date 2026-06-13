@@ -1,1 +1,2 @@
-rundll32 user32.dll,MessageBeep
+@echo off
+powershell -Command "[System.Console]::Beep(800,500)"
