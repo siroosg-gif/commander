@@ -1,2 +1,4 @@
 @echo off
+echo started > C:\test.txt
+powershell -Command "[System.Console]::Beep(800,500)"@echo off
 powershell -Command "[System.Console]::Beep(800,500)"
